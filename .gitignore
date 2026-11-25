@@ -1,0 +1,7 @@
+# >>> ai-agent-devcontainer (managed by bootstrap-devcontainer)
+# Skill files written by 'aspire agent init'
+.agents/skills/
+.claude/skills/
+.github/skills/
+.opencode/skill/
+# <<< ai-agent-devcontainer
