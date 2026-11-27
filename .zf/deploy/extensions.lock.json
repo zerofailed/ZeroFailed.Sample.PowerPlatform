@@ -1,0 +1,65 @@
+{
+  "lockVersion": 1,
+  "extensions": {
+    "ZeroFailed.Deploy.Azure": {
+      "source": {
+        "type": "git",
+        "folderPath": "module",
+        "preRelease": false,
+        "repository": "https://github.com/zerofailed/ZeroFailed.Deploy.Azure"
+      },
+      "requested": "[1.8.0,2.0.0)",
+      "resolved": "f6acd906131b8cdaddc7ee760c28e1b188e2c229",
+      "resolvedRef": "refs/tags/1.8.4",
+      "contentHash": "sha256:c083da5217ca281036b2d6b9b018fbb4cfc9517a39aa7b7235c01de407398b92",
+      "direct": false,
+      "requiredBy": [
+        "ZeroFailed.Deploy.PowerPlatform"
+      ]
+    },
+    "ZeroFailed.Deploy.Common": {
+      "source": {
+        "type": "git",
+        "folderPath": "module",
+        "preRelease": false,
+        "repository": "https://github.com/zerofailed/ZeroFailed.Deploy.Common"
+      },
+      "requested": "[2.0.0,3.0.0)",
+      "resolved": "aad95069f184f58b71811ebf3714d311576cd06a",
+      "resolvedRef": "refs/tags/2.0.1",
+      "contentHash": "sha256:474e083475902595bb227655e2461a741772c366a7ca57c9ef45db6c4f3dcc58",
+      "direct": false,
+      "requiredBy": [
+        "ZeroFailed.Deploy.Azure"
+      ]
+    },
+    "ZeroFailed.Deploy.PowerPlatform": {
+      "source": {
+        "type": "git",
+        "folderPath": "module",
+        "repository": "https://github.com/zerofailed/ZeroFailed.Deploy.PowerPlatform"
+      },
+      "requested": "main",
+      "resolved": "f6ed275d616e2f3d071333e57d3ae3a2e1232346",
+      "contentHash": "sha256:e5f042e2c63d6e18d5f5b90373b1a77ded91f0379135ff980e47093d896c0642",
+      "direct": true,
+      "requiredBy": []
+    },
+    "ZeroFailed.DevOps.Common": {
+      "source": {
+        "type": "git",
+        "folderPath": "module",
+        "preRelease": false,
+        "repository": "https://github.com/zerofailed/ZeroFailed.DevOps.Common"
+      },
+      "requested": "[2.0.0,3.0.0)",
+      "resolved": "e749e0d23df3bc97379f4944eefdcd4f04de80af",
+      "resolvedRef": "refs/tags/2.4.4",
+      "contentHash": "sha256:ded9af114b08f20770d5706653e11ec82b5dd351ac118a8ef89d2a0fc4c24f3f",
+      "direct": false,
+      "requiredBy": [
+        "ZeroFailed.Deploy.Common"
+      ]
+    }
+  }
+}

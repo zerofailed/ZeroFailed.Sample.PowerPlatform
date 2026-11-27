@@ -5,3 +5,7 @@
 .github/skills/
 .opencode/skill/
 # <<< ai-agent-devcontainer
+
+# ZeroFailed build outputs
+_packages/
+.zf/*/extensions/
